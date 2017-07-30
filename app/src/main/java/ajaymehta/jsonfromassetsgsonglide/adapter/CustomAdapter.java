@@ -91,6 +91,7 @@ public class CustomAdapter extends BaseAdapter {
     }
 
     // it will take bit of time to load image .....so i m letting you know ......
+    //=============Dont forget to put the INTERNET permission in manifest otherwise glide will not work=========
     public void glide(String url , ImageView profilePic){
 
             Glide.with(context).load(url)
